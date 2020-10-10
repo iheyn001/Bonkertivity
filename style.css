@@ -1,0 +1,42 @@
+#Schedule {
+            background-color: yellow;
+            width: 400px;
+            height: 300px;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 30px;
+            max-width: 1000px;
+          }
+
+#ToDoList {
+            background-color: green;
+            width: 400px;
+            height: 300px;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 30px;
+            max-width: 1000px;
+          }
+
+#Daily    {
+            background-color: green;
+            width: 400px;
+            height: 300px;
+            padding: 20px;
+            border: 2px solid black;
+            margin: 30px;
+            max-width: 1000px;
+          }
+
+.newtask  {
+            text-align: left;
+          }
+
+body  {
+        font-size: 16px;
+      }
+
+p {
+    font-size: 20px;
+    text-align: center;
+  }
