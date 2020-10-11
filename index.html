@@ -17,9 +17,9 @@
 <iframe src="http://free.timeanddate.com/clock/i7hxygda/n5348/fn17/fs20/fcff5733/tct/pct/ftb/pd2/tt0/ta1" frameborder="0" width="604" height="26" allowTransparency="true"></iframe>
 </div>
 
-<div class = content> 
+<div class = content>
   <div id = "Schedule">
-    <p>Schedule</p><br>
+    <h1>Schedule</h1><br>
     <div id="updSched"></div>
     <script src="showTasks.js"></script>
 
@@ -29,14 +29,18 @@
   </div>
 
   <div id = "ToDoList">
-    <p>To-Do</p><br>
+    <h1>To-Do</h1><br>
+    <div id="updToDo"></div>
+    <script src="showToDos.js"></script>
     <label for="do" class = "newtask">+  </label>
     <input type = "text" id = "do"> <button type="submit" id = "button2">Enter</button>
     <script src="gatherToDo.js"></script>
   </div>
 
   <div id = "Daily">
-    <p>Daily</p><br>
+    <h1>Daily</h1><br>
+    <div id="updDH"></div>
+    <script src="showDailyHabits.js"></script>
     <label for="habit" class = "newtask">+  </label>
     <input type = "text" id = "habit"> <button type="submit" id = "button3">Enter</button>
     <script src="gatherDailyHabits.js"></script>

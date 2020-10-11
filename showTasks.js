@@ -31,9 +31,3 @@ if(tasks !== null)
   }
 
 }
-
-/*function deleteTask()
-{
-  a.remove(b);
-}
-*/

@@ -9,8 +9,8 @@ document.getElementById("button1").onclick = addNewTask;
 
 function addNewTask()
 {
-  //var tasks = JSON.parse(localStorage.getItem("tasks"));
   tasks.push(document.getElementById('sched').value);
+  document.getElementById('sched').value='';
 
   localStorage.setItem("tasks", JSON.stringify(tasks));
 
