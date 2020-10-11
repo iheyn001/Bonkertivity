@@ -6,6 +6,7 @@
             border: 2px solid black;
             margin: 30px;
             max-width: 1000px;
+            float: left;
           }
 
 #ToDoList {
@@ -16,16 +17,18 @@
             border: 2px solid black;
             margin: 30px;
             max-width: 1000px;
+            float: left;
           }
 
 #Daily    {
-            background-color: green;
+            background-color: white;
             width: 400px;
             height: 300px;
             padding: 20px;
             border: 2px solid black;
             margin: 30px;
             max-width: 1000px;
+            float: left;
           }
 
 .newtask  {
