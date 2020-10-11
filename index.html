@@ -7,28 +7,49 @@
 </head>
 
 <body>
+  <h1>Bonkertivity</h1>
+  <ul class= "nav">
+  <li> <h3>Time management, made easy. </h3> </li>
+  <li>⏰<li/>
+  </ul>
+
+<div id = "CurrentTime">
+<iframe src="http://free.timeanddate.com/clock/i7hxygda/n5348/fn17/fs20/fcff5733/tct/pct/ftb/pd2/tt0/ta1" frameborder="0" width="604" height="26" allowTransparency="true"></iframe>
+</div>
+
+<div class = content> 
   <div id = "Schedule">
     <p>Schedule</p><br>
     <div id="updSched"></div>
     <script src="showTasks.js"></script>
 
-    <label for="sched" class = "newtask">Add  </label>
+    <label for="sched" class = "newtask">+  </label>
     <input type = "text" id = "sched"> <button type="submit" id = "button1">Enter</button>
     <script src="gatherTasks.js"></script>
   </div>
 
   <div id = "ToDoList">
     <p>To-Do</p><br>
-    <label for="do" class = "newtask">Add  </label>
+    <label for="do" class = "newtask">+  </label>
     <input type = "text" id = "do"> <button type="submit" id = "button2">Enter</button>
     <script src="gatherToDo.js"></script>
   </div>
 
   <div id = "Daily">
     <p>Daily</p><br>
-    <label for="habit" class = "newtask">Add  </label>
+    <label for="habit" class = "newtask">+  </label>
     <input type = "text" id = "habit"> <button type="submit" id = "button3">Enter</button>
     <script src="gatherDailyHabits.js"></script>
   </div>
+</div>
 
 </body>
+
+<div id = "Footer">
+  <footer>
+    Copyright &#169; 2020 <br>
+    Created by Kim, Isabel, Sam, and Adrianna. Students at KnightHacks 2020. <br>
+  </footer>
+  </div>
+
+</html>
